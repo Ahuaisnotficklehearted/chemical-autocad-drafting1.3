@@ -1,0 +1,655 @@
+{
+  "date": "2026-10-04",
+  "scope": [
+    "文字",
+    "设备布置",
+    "物流标注",
+    "管线组织"
+  ],
+  "tag_pattern": "[A-Z]{1,3}-?\\d{3,6}(?:[A-Z]|[A-Z]/[A-Z])?",
+  "count_scope": "模型空间位号形式文字；含重复，不是设备台数",
+  "preview_font_substitution": "仅预览内存用SimHei代替SHX，不能据此判定原图文字碰撞",
+  "sources": [
+    {
+      "id": "zjut",
+      "dwg": "D:\\BaiduNetdiskDownload\\华东赛区-浙江工业大学-烯里糊涂\\2-设计图纸\\1-工艺物料流程图（PFD）\\工艺物流流程图（PFD）-2004.dwg",
+      "sha256": "3f11e1f35bc5fc078f2833f4ad7267219753828f06e7dc9d867a67d92d6b1c16",
+      "original_unchanged": true,
+      "equipment_tag_text_count": 261,
+      "tag_heights": {
+        "3.0": 261
+      },
+      "tag_styles": {
+        "3-gbcbig": 254,
+        "7-GBCBIG": 7
+      },
+      "examples": [
+        {
+          "handle": "624E",
+          "text": "C0201",
+          "layer": "10-文本",
+          "height": 3.0,
+          "style": "3-gbcbig",
+          "at": [
+            2532.428139440505,
+            5634.915627253706
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "6254",
+          "text": "V0102",
+          "layer": "10-文本",
+          "height": 3.0,
+          "style": "3-gbcbig",
+          "at": [
+            3852.253953002648,
+            7120.775382976494
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "6257",
+          "text": "P0101A/B",
+          "layer": "10-文本",
+          "height": 3.0,
+          "style": "3-gbcbig",
+          "at": [
+            2568.104868006133,
+            7135.540798639934
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "625D",
+          "text": "T0101",
+          "layer": "10-文本",
+          "height": 3.0,
+          "style": "3-gbcbig",
+          "at": [
+            2709.808520477156,
+            7135.540798639941
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "6260",
+          "text": "E0210",
+          "layer": "10-文本",
+          "height": 3.0,
+          "style": "3-gbcbig",
+          "at": [
+            3920.760455310771,
+            5634.915627253715
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "6263",
+          "text": "E0205",
+          "layer": "10-文本",
+          "height": 3.0,
+          "style": "3-gbcbig",
+          "at": [
+            3594.433151903607,
+            5635.226413263675
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "6269",
+          "text": "E0314",
+          "layer": "10-文本",
+          "height": 3.0,
+          "style": "3-gbcbig",
+          "at": [
+            4834.968623223748,
+            4146.601493422991
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "626F",
+          "text": "E0313",
+          "layer": "10-文本",
+          "height": 3.0,
+          "style": "3-gbcbig",
+          "at": [
+            4613.252242401638,
+            4146.601493422991
+          ],
+          "halign": null,
+          "rotation": 0.0
+        }
+      ],
+      "selected_pages": [
+        {
+          "handle": "C41F",
+          "rect": [
+            3321.16919,
+            4090.35982,
+            4127.16919,
+            4664.35982
+          ],
+          "tag_count": 28,
+          "tag_heights": {
+            "3.0": 28
+          },
+          "preview": "D:\\BaiduNetdiskDownload\\化工cad\\.standard-study\\zjut-sheet-1.png"
+        },
+        {
+          "handle": "5DA6",
+          "rect": [
+            3321.16919,
+            7066.35982,
+            4127.16919,
+            7640.35982
+          ],
+          "tag_count": 20,
+          "tag_heights": {
+            "3.0": 20
+          },
+          "preview": "D:\\BaiduNetdiskDownload\\化工cad\\.standard-study\\zjut-sheet-2.png"
+        }
+      ]
+    },
+    {
+      "id": "zju",
+      "dwg": "D:\\BaiduNetdiskDownload\\华东赛区-浙江大学-嘻嘻不嘻烯\\1-设计源文件\\5-AutoCAD2004制图源文件\\1-工艺物流流程图（PFD）\\PFD-2004版.dwg",
+      "sha256": "15308471b485cbf480d1f3533abe9fb2f8f69da6fd7e0a6748c8ef0b4c174186",
+      "original_unchanged": true,
+      "equipment_tag_text_count": 177,
+      "tag_heights": {
+        "3.0": 177
+      },
+      "tag_styles": {
+        "3": 177
+      },
+      "examples": [
+        {
+          "handle": "3A773",
+          "text": "M0101",
+          "layer": "1-文本",
+          "height": 3.0,
+          "style": "3",
+          "at": [
+            2235.345359629551,
+            -624.2360107236017
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "3A8D0",
+          "text": "R0101",
+          "layer": "1-文本",
+          "height": 3.0,
+          "style": "3",
+          "at": [
+            3198.662676630724,
+            -705.4816533745179
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "3A975",
+          "text": "E0104",
+          "layer": "1-文本",
+          "height": 3.0,
+          "style": "3",
+          "at": [
+            3458.441390073407,
+            -461.4563957829302
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "3A97B",
+          "text": "V0101",
+          "layer": "1-文本",
+          "height": 3.0,
+          "style": "3",
+          "at": [
+            3591.48475617397,
+            -468.6667431339274
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "3AAE5",
+          "text": "K0101",
+          "layer": "1-文本",
+          "height": 3.0,
+          "style": "3",
+          "at": [
+            3358.17174149098,
+            -714.8776046623781
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "3B978",
+          "text": "T0201",
+          "layer": "1-文本",
+          "height": 3.0,
+          "style": "3",
+          "at": [
+            3322.306496550381,
+            -2174.881904567724
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "3B97E",
+          "text": "P0205A/B",
+          "layer": "1-文本",
+          "height": 3.0,
+          "style": "3",
+          "at": [
+            3389.102333558211,
+            -2052.073731860859
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "3B984",
+          "text": "V0204",
+          "layer": "1-文本",
+          "height": 3.0,
+          "style": "3",
+          "at": [
+            3453.314387642976,
+            -1954.850319381604
+          ],
+          "halign": null,
+          "rotation": 0.0
+        }
+      ],
+      "selected_pages": [
+        {
+          "handle": "3A14E",
+          "rect": [
+            3036.920403157052,
+            -3889.7063376322767,
+            3893.6894744093593,
+            -3295.258179378525
+          ],
+          "tag_count": 30,
+          "tag_heights": {
+            "3.0": 30
+          },
+          "preview": "D:\\BaiduNetdiskDownload\\化工cad\\.standard-study\\zju-sheet-1.png"
+        },
+        {
+          "handle": "3A0AB",
+          "rect": [
+            3036.920403157052,
+            -2402.54476673324,
+            3893.6894744093593,
+            -1808.0966084794882
+          ],
+          "tag_count": 22,
+          "tag_heights": {
+            "3.0": 22
+          },
+          "preview": "D:\\BaiduNetdiskDownload\\化工cad\\.standard-study\\zju-sheet-2.png"
+        }
+      ]
+    },
+    {
+      "id": "njtech",
+      "dwg": "D:\\BaiduNetdiskDownload\\华东赛区-南京工业大学-百思而悟\\3-设计图册集\\1-AutoCAD-2004\\1-工艺物料流程图（PFD）\\1-工艺物料流程图（PFD）-2004.dwg",
+      "sha256": "b2e535d9d595a5a55f0fff0d25274773c4d24507211a4e29f9465105cf6bf440",
+      "original_unchanged": true,
+      "equipment_tag_text_count": 230,
+      "tag_heights": {
+        "3.0": 230
+      },
+      "tag_styles": {
+        "cfst 3mm 0.75": 230
+      },
+      "examples": [
+        {
+          "handle": "46EE",
+          "text": "V0501A",
+          "layer": "0",
+          "height": 3.0,
+          "style": "cfst 3mm 0.75",
+          "at": [
+            36008.39384391502,
+            17172.03574329022
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "46F4",
+          "text": "V0501A",
+          "layer": "0",
+          "height": 3.0,
+          "style": "cfst 3mm 0.75",
+          "at": [
+            36008.39384391502,
+            17373.01328682708
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "4783",
+          "text": "V0502A",
+          "layer": "0",
+          "height": 3.0,
+          "style": "cfst 3mm 0.75",
+          "at": [
+            37032.39384391503,
+            17172.03574329021
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "4786",
+          "text": "P0501A/B",
+          "layer": "0",
+          "height": 3.0,
+          "style": "cfst 3mm 0.75",
+          "at": [
+            37426.57283297474,
+            17172.03574329022
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "4819",
+          "text": "V0503",
+          "layer": "0",
+          "height": 3.0,
+          "style": "cfst 3mm 0.75",
+          "at": [
+            38076.31999149238,
+            17172.03574329021
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "481C",
+          "text": "P0502A/B",
+          "layer": "0",
+          "height": 3.0,
+          "style": "cfst 3mm 0.75",
+          "at": [
+            38326.73127202981,
+            17172.03574329022
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "481F",
+          "text": "V0503",
+          "layer": "0",
+          "height": 3.0,
+          "style": "cfst 3mm 0.75",
+          "at": [
+            38076.31999149238,
+            17373.01328682708
+          ],
+          "halign": null,
+          "rotation": 0.0
+        },
+        {
+          "handle": "4821",
+          "text": "P0502A/B",
+          "layer": "0",
+          "height": 3.0,
+          "style": "cfst 3mm 0.75",
+          "at": [
+            38326.73127202981,
+            17227.75319609184
+          ],
+          "halign": null,
+          "rotation": 0.0
+        }
+      ],
+      "selected_pages": [
+        {
+          "handle": "1539D3",
+          "rect": [
+            37763.00317,
+            17838.53574,
+            38569.00317,
+            18412.53574
+          ],
+          "tag_count": 18,
+          "tag_heights": {
+            "3.0": 18
+          },
+          "preview": "D:\\BaiduNetdiskDownload\\化工cad\\.standard-study\\njtech-sheet-1.png"
+        },
+        {
+          "handle": "153B7D",
+          "rect": [
+            39745.00317,
+            17838.53574,
+            40551.00317,
+            18412.53574
+          ],
+          "tag_count": 18,
+          "tag_heights": {
+            "3.0": 18
+          },
+          "preview": "D:\\BaiduNetdiskDownload\\化工cad\\.standard-study\\njtech-sheet-2.png"
+        }
+      ]
+    }
+  ],
+  "equipment_tag_text_count": 668,
+  "latest_20261006": {
+    "sources": [
+      {
+        "id": "ecust",
+        "path": "D:\\BaiduNetdiskDownload\\华东理工大学-真的想不出名\\物料工艺流程图（PFD).dwg",
+        "sha256": "990bcadb1f6c6cce7989acdad7655a4321853d9ed4d258846d7648c6a94950c2",
+        "units": 4,
+        "pages": 24,
+        "frame_sizes": [
+          {
+            "width": 841.0,
+            "height": 594.0,
+            "count": 24
+          }
+        ],
+        "evidence_file": "C:\\Users\\Administrator\\.codex\\skills\\chemical-autocad-drafting\\assets\\pfd-study-20261006\\ecust.json",
+        "analysis_page_number": "按几何排序；图签原文字段单独保留",
+        "device_position_scope": "位号文字坐标和源几何边界分开记录，未把页脚位号位置推定为设备中心"
+      },
+      {
+        "id": "njtech",
+        "path": "D:\\BaiduNetdiskDownload\\华东赛区-南京工业大学-百思而悟\\1-工艺物料流程图（PFD）-2004.dwg",
+        "sha256": "b2e535d9d595a5a55f0fff0d25274773c4d24507211a4e29f9465105cf6bf440",
+        "units": 4,
+        "pages": 47,
+        "frame_sizes": [
+          {
+            "width": 841.0,
+            "height": 594.0,
+            "count": 47
+          }
+        ],
+        "evidence_file": "C:\\Users\\Administrator\\.codex\\skills\\chemical-autocad-drafting\\assets\\pfd-study-20261006\\njtech.json",
+        "analysis_page_number": "按几何排序；图签原文字段单独保留",
+        "device_position_scope": "位号文字坐标和源几何边界分开记录，未把页脚位号位置推定为设备中心"
+      },
+      {
+        "id": "tju",
+        "path": "D:\\BaiduNetdiskDownload\\华北赛区-天津大学-砜声水起\\1-工艺物料流程图（PFD）.dwg",
+        "sha256": "0975cef4a6caf5d0dc00f7bf15e34aac3d31ef5919bd4c34737520969853075e",
+        "units": 4,
+        "pages": 14,
+        "frame_sizes": [
+          {
+            "width": 841.0,
+            "height": 594.0,
+            "count": 14
+          }
+        ],
+        "evidence_file": "C:\\Users\\Administrator\\.codex\\skills\\chemical-autocad-drafting\\assets\\pfd-study-20261006\\tju.json",
+        "analysis_page_number": "按几何排序；图签原文字段单独保留",
+        "device_position_scope": "位号文字坐标和源几何边界分开记录，未把页脚位号位置推定为设备中心"
+      },
+      {
+        "id": "zju",
+        "path": "D:\\BaiduNetdiskDownload\\华东赛区-浙江大学-嘻嘻不嘻烯\\PFD-2004版.dwg",
+        "sha256": "15308471b485cbf480d1f3533abe9fb2f8f69da6fd7e0a6748c8ef0b4c174186",
+        "units": 4,
+        "pages": 20,
+        "frame_sizes": [
+          {
+            "width": 841.0,
+            "height": 594.0,
+            "count": 20
+          }
+        ],
+        "evidence_file": "C:\\Users\\Administrator\\.codex\\skills\\chemical-autocad-drafting\\assets\\pfd-study-20261006\\zju.json",
+        "analysis_page_number": "按几何排序；图签原文字段单独保留",
+        "device_position_scope": "位号文字坐标和源几何边界分开记录，未把页脚位号位置推定为设备中心"
+      },
+      {
+        "id": "zjut",
+        "path": "D:\\BaiduNetdiskDownload\\华东赛区-浙江工业大学-烯里糊涂\\工艺物流流程图（PFD）-2004.dwg",
+        "sha256": "3f11e1f35bc5fc078f2833f4ad7267219753828f06e7dc9d867a67d92d6b1c16",
+        "units": 4,
+        "pages": 34,
+        "frame_sizes": [
+          {
+            "width": 841.0,
+            "height": 594.0,
+            "count": 32
+          },
+          {
+            "width": 691.0,
+            "height": 594.0,
+            "count": 1
+          },
+          {
+            "width": 806.0,
+            "height": 574.0,
+            "count": 1
+          }
+        ],
+        "evidence_file": "C:\\Users\\Administrator\\.codex\\skills\\chemical-autocad-drafting\\assets\\pfd-study-20261006\\zjut.json",
+        "analysis_page_number": "按几何排序；图签原文字段单独保留",
+        "device_position_scope": "位号文字坐标和源几何边界分开记录，未把页脚位号位置推定为设备中心"
+      },
+      {
+        "id": "zju_alcohol",
+        "path": "D:\\BaiduNetdiskDownload\\华东赛区-浙江大学-绝不单醇队\\工艺物料流程图（PFD）-2004.dwg",
+        "sha256": "2de729c65c7d99db6cc5d3e46aad29ec49bf1aa099a3cbe8595ba718280b076a",
+        "units": 4,
+        "pages": 23,
+        "frame_sizes": [
+          {
+            "width": 841.0,
+            "height": 594.0,
+            "count": 23
+          }
+        ],
+        "evidence_file": "C:\\Users\\Administrator\\.codex\\skills\\chemical-autocad-drafting\\assets\\pfd-study-20261006\\zju_alcohol.json",
+        "analysis_page_number": "按几何排序；图签原文字段单独保留",
+        "device_position_scope": "位号文字坐标和源几何边界分开记录，未把页脚位号位置推定为设备中心"
+      },
+      {
+        "id": "zju_extra",
+        "path": "D:\\BaiduNetdiskDownload\\华东赛区-浙江大学-嘻嘻不嘻烯\\1-工艺物料流程图（PFD）-2004.dwg",
+        "sha256": "ea77519e43d3a36909c7cd2deee2a80335c01fc21c1b136a1f333a05f10e1dc6",
+        "units": 4,
+        "pages": 26,
+        "frame_sizes": [
+          {
+            "width": 841.0,
+            "height": 594.0,
+            "count": 26
+          }
+        ],
+        "evidence_file": "C:\\Users\\Administrator\\.codex\\skills\\chemical-autocad-drafting\\assets\\pfd-study-20261006\\zju_extra.json",
+        "analysis_page_number": "按几何排序；图签原文字段单独保留",
+        "device_position_scope": "位号文字坐标和源几何边界分开记录，未把页脚位号位置推定为设备中心"
+      }
+    ],
+    "summary": [
+      {
+        "source": "ecust",
+        "frames": 24,
+        "process_pages": 16,
+        "paths": 1074,
+        "equipment_labels": 71,
+        "loop_labels": 53
+      },
+      {
+        "source": "njtech",
+        "frames": 47,
+        "process_pages": 23,
+        "paths": 2668,
+        "equipment_labels": 154,
+        "loop_labels": 83
+      },
+      {
+        "source": "tju",
+        "frames": 14,
+        "process_pages": 10,
+        "paths": 1056,
+        "equipment_labels": 133,
+        "loop_labels": 27
+      },
+      {
+        "source": "zju",
+        "frames": 20,
+        "process_pages": 15,
+        "paths": 920,
+        "equipment_labels": 121,
+        "loop_labels": 28
+      },
+      {
+        "source": "zju_alcohol",
+        "frames": 23,
+        "process_pages": 15,
+        "paths": 935,
+        "equipment_labels": 142,
+        "loop_labels": 29
+      },
+      {
+        "source": "zju_extra",
+        "frames": 26,
+        "process_pages": 16,
+        "paths": 677,
+        "equipment_labels": 94,
+        "loop_labels": 32
+      },
+      {
+        "source": "zjut",
+        "frames": 34,
+        "process_pages": 22,
+        "paths": 1377,
+        "equipment_labels": 206,
+        "loop_labels": 31
+      }
+    ],
+    "scope": "七份全源实体扫描、全部矩形页域记录及每来源两个重点循环页的图形阅读；不等同对每页印刷页号或每台散实体设备用途的人工确认"
+  }
+}

@@ -1,0 +1,25 @@
+# chemical-autocad-drafting —— 运行依赖（机器可读）
+#
+# 本技能**大部分能力零依赖**（纯标准库即可跑）：
+#   · 定位与提取   chemcad_locate.py
+#   · ELK 版面引擎  chemcad_elk.py
+#   · A* 避障布线   chemcad_route.py
+#   · SCR / LISP 通道 chemcad_scr.py（生成脚本，由 CAD 自己执行）
+#   · 内置 R12 DXF 书写器（draw_pfd.py --backend dxf --no-ezdxf）
+#   · 轻量剖析       inspect_dxf.py / check_dxf.py / chemcad_locate.py
+#
+# 下列为**部分能力**所需，缺失时对应通道不可用（技能会明确报错，不会静默降级）：
+
+# —— 核心：DXF 读写（R2000~R2013、图层/线宽/图块）——
+# 缺失时：--backend dxf（默认 ezdxf 路径）不可用，可退回内置 R12 书写器
+ezdxf>=1.0
+
+# —— 核心（仅 Windows）：AutoCAD COM 出图通道 ——
+# 技能硬规定「交付格式 = DWG、通道 = AutoCAD COM」；缺失时 COM 通道不可用
+# （会报错退出码 3，不会静默改用 DXF 或 accoreconsole）
+# 提供 win32com.client / win32con / win32gui 三个模块
+pywin32>=306; sys_platform == "win32"
+
+# —— 可选：目视复核出图（preview_dxf.py → PNG）——
+# 仅预览用；缺失时出图与校核不受影响
+matplotlib>=3.5
